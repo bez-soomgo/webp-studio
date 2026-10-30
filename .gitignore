@@ -1,0 +1,30 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ffmpeg 정적 빌드(GPL) — scripts/fetch-ffmpeg.sh 로 받는다
+src-tauri/binaries/
+
+# 사내 자산 등 공개하면 안 되는 테스트 파일
+fixtures/local/
